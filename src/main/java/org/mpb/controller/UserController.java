@@ -40,10 +40,12 @@ public class UserController {
 	public Post constructPost() {
 		return new Post();
 	}
+
 	@ModelAttribute("comment")
 	public Comment constructComment() {
 		return new Comment();
 	}
+
 	@RequestMapping("/account")
 	public String account(Model model, Principal principal) {
 		String name = principal.getName();
@@ -57,10 +59,12 @@ public class UserController {
 		postService.delete(post);
 		return "redirect:/account.html";
 	}
+
 	@RequestMapping("/postwrite")
 	public String showPostWrite() {
 		return "postwrite";
 	}
+
 	@RequestMapping(value = "/postwrite", method = RequestMethod.POST)
 	public String doAddPost(Model model,
 			@Valid @ModelAttribute("post") Post post, BindingResult result,
@@ -69,6 +73,7 @@ public class UserController {
 		postService.save(post, name);
 		return "redirect:/index.html";
 	}
+
 	@RequestMapping("post/{title}")
 	public String detail(Model model, @PathVariable String title) {
 		model.addAttribute("post", postService.findOneWithComments(title));

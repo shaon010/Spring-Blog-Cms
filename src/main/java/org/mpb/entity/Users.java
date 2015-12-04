@@ -2,14 +2,7 @@ package org.mpb.entity;
 
 import java.util.List;
 
-import javax.persistence.CascadeType;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.JoinTable;
-import javax.persistence.ManyToMany;
-import javax.persistence.OneToMany;
+import javax.persistence.*;
 import javax.validation.constraints.Size;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
@@ -38,7 +31,7 @@ public class Users {
 	private int enabled;
 
 	@JsonIgnore
-	@ManyToMany
+	@ManyToMany(fetch = FetchType.EAGER)
 	@JoinTable
 	private List<Role> roles;
 	
@@ -84,6 +77,7 @@ public class Users {
 	public void setPosts(List<Post> posts) {
 		this.posts = posts;
 	}
+
 	public List<Role> getRoles() {
 		return roles;
 	}
