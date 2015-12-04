@@ -35,7 +35,7 @@ public class Post {
 	
 	@ManyToOne
 	@JoinColumn(name = "user_id")
-	private Users user;
+	private Users user; //like grails belongsTo
 	
 	
 	@Temporal(TemporalType.TIMESTAMP)

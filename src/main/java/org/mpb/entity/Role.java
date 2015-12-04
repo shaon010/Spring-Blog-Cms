@@ -1,15 +1,14 @@
 package org.mpb.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import org.springframework.security.core.GrantedAuthority;
+
 import java.util.List;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.ManyToMany;
+import javax.persistence.*;
 
 @Entity
-public class Role {
+public class Role implements GrantedAuthority {
 
 	@Id
 	@GeneratedValue
@@ -17,6 +16,7 @@ public class Role {
 
 	private String name;
 
+	@JsonIgnore
 	@ManyToMany(mappedBy = "roles")
 	private List<Users> users;
 
@@ -44,4 +44,8 @@ public class Role {
 		this.name = name;
 	}
 
+	@Override
+	public String getAuthority() {
+		return name;
+	}
 }

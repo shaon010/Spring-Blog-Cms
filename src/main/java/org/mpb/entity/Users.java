@@ -6,13 +6,13 @@ import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
 import javax.persistence.OneToMany;
 import javax.validation.constraints.Size;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import org.hibernate.validator.constraints.Email;
 import org.mpb.annotation.UniqueUsername;
 
@@ -37,22 +37,14 @@ public class Users {
 
 	private int enabled;
 
+	@JsonIgnore
 	@ManyToMany
 	@JoinTable
 	private List<Role> roles;
-
-	
 	
 	@OneToMany(mappedBy = "user", cascade = CascadeType.REMOVE)
-	private List<Post> posts;
-	
-	public List<Post> getPosts() {
-		return posts;
-	}
+	private List<Post> posts; //like grails hasMany
 
-	public void setPosts(List<Post> posts) {
-		this.posts = posts;
-	}
 
 	@OneToMany(mappedBy = "user", cascade = CascadeType.REMOVE)
 	private List<Comment> comment;
@@ -65,15 +57,33 @@ public class Users {
 		this.comment = comment;
 	}
 
+	public Users( ) {
+	}
+
+	public Users(Users user) {
+		super();
+		this.name = user.getName();
+		this.password = user.getPassword();
+		this.enabled = user.getEnabled();
+		this.roles = user.getRoles();
+	}
+
 	public int getEnabled() {
 		return enabled;
 	}
 
-	public void setEnabled(int enabled) {
-		this.enabled = enabled;
+	public void setEnabled(int isEnabled) {
+		this.enabled = isEnabled;
 	}
 
 
+	public List<Post> getPosts() {
+		return posts;
+	}
+
+	public void setPosts(List<Post> posts) {
+		this.posts = posts;
+	}
 	public List<Role> getRoles() {
 		return roles;
 	}

@@ -77,7 +77,7 @@ public class InitDbService {
 			 categoryRepository.save(category2);
 			 
 			 Category category3 =new Category();
-			 category3.setTitle("evolution");
+			 category3.setTitle("grails");
 			 categoryRepository.save(category3);
 			 
 			 Category category4 =new Category();
@@ -86,7 +86,17 @@ public class InitDbService {
 			 
 			 Post post = new Post();
 			 post.setTitle("Sony ericsson Xperia Ray looks great");
-			 post.setDescription("It's been a busy old year for Sony Ericsson. As it struggles to regain a foothold in the market it was once sucha major player in, it's been firing out more Android-based Xperia smartphones than long-lost relatives on an episode of Jeremy Kyle. And they're not half bad either. The Xperia Arc has been the flagship of 2011's bunch. Arriving in the spring, it became the skinny poster girl for the Swedish-Japanese hybrid, showing off its amazing screen presence with the help of the Sony Reality Display (the bit that reproduces colour on the screen and makes it look great) but in the Xperia Ray, Sony Ericsson has gone for a smaller model.");
+			 post.setDescription("It's been a busy old year for Sony Ericsson." +
+					 " As it struggles to regain a foothold in the market it " +
+					 "was once sucha major player in, it's been firing out more " +
+					 "Android-based Xperia smartphones than long-lost relatives on " +
+					 "an episode of Jeremy Kyle. And they're not half bad either. " +
+					 "The Xperia Arc has been the flagship of 2011's bunch. Arriving " +
+					 "in the spring, it became the skinny poster girl for the Swedish-Japanese" +
+					 " hybrid, showing off its amazing screen presence with the help of the" +
+					 " Sony Reality Display (the bit that reproduces colour on the screen and" +
+					 " makes it look great) but in the Xperia Ray, Sony Ericsson has gone " +
+					 "for a smaller model.");
 			 post.setPublishedDate(new Date());
 			 post.setUser(userAdmin);
 			 post.setCategory(category4);

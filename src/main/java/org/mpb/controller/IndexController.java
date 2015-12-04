@@ -17,4 +17,10 @@ public class IndexController {
 		model.addAttribute("posts", postService.getPosts());
 		return "index";
 	}
+
+	@RequestMapping("/")
+	public String init(Model model) {
+		model.addAttribute("posts", postService.getPosts());
+		return "index";
+	}
 }
