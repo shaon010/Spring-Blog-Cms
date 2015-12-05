@@ -13,6 +13,7 @@ import org.mpb.repository.CommentRepository;
 import org.mpb.repository.PostRepository;
 import org.mpb.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort.Direction;
 import org.springframework.security.access.method.P;
@@ -73,8 +74,10 @@ public class PostService {
 		return postRepository.findOne(id);
 	}
 	
-	public List<Post> getPosts() {
-		return postRepository.findAll(new PageRequest(0, 20, Direction.DESC, "publishedDate")).getContent();
+	public Page getPosts(Integer pageNo, Integer size) {
+		if (pageNo == null)
+			pageNo = 0;
+		return postRepository.findAll(new PageRequest(pageNo, size, Direction.DESC, "publishedDate"));
 	}
 
 	@Transactional

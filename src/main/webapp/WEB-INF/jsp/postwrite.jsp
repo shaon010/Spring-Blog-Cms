@@ -3,7 +3,9 @@
 
 <script type="text/javascript" src="//cdn.jsdelivr.net/ckeditor/4.0.1/ckeditor.js"></script>
 <%@ include file="../layout/taglib.jsp"%>
-<%@ taglib uri="http://ckeditor.com" prefix="ckeditor" %>
+
+<script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
+<script>tinymce.init({ selector:'textarea' });</script>
 
 <form:form commandName="post" cssClass="form-horizontal postform">
 	<div class="form-group">
@@ -25,7 +27,8 @@
 				<option value="" label="--- Select ---" />
 				<c:forEach var="category" items="${categoryList}">
 					<option value="${category.getId() }">
-						${category.getTitle()}</option>
+						${category.getTitle()}
+                    </option>
 				</c:forEach>
 			</form:select>
 			<div class="form-group">
@@ -37,8 +40,6 @@
 		</div>
 	</div>
 </form:form>
-<ckeditor:replace replace="description" basePath="/ckeditor/" />
-
 
 <script type="text/javascript">
 $(document).ready(function() {
@@ -59,7 +60,7 @@ $(document).ready(function() {
 			},
 			unhighlight: function(element) {
 				$(element).closest('.form-group').removeClass('has-error').addClass('has-success');
-			},
+			}
 		}
 	);
 });

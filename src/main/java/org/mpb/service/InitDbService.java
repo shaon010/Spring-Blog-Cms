@@ -101,7 +101,2038 @@ public class InitDbService {
 			 post.setUser(userAdmin);
 			 post.setCategory(category4);
 			 postRepository.save(post);
-			 
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
+
+			post = new Post();
+			post.setTitle("Sony ericsson Xperia Ray looks great");
+			post.setDescription("It's been a busy old year for Sony Ericsson");
+			post.setPublishedDate(new Date());
+			post.setUser(userAdmin);
+			post.setCategory(category4);
+			postRepository.save(post);
 		}
 	}
 }
