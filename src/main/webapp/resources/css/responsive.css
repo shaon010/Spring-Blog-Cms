@@ -1,0 +1,57 @@
+@media only screen and (max-width:767px) {
+	#button{
+		margin-top: 40px;
+	}
+	.navbar-collapse{
+	  background-color: #37424C;
+	  border-radius: 6px;
+	  
+	}
+	.navbar-right {
+	    margin-top:10px;
+	    margin-bottom: 0;
+	    font-size: 16px;
+	    
+	}
+
+	.navbar-right > li > a {
+	    margin-left: 40px;
+	    margin-right:40px;
+	}
+
+	.navbar-right > li > a:hover,
+	.navbar-right > li > a:focus,
+	.navbar-right  >li.dropdown.open.active > a:hover,
+	.navbar-right  >li.dropdown.open.active > a:focus{
+	  background: transparent;
+	} 
+	.active > a {
+	  background:transparent;
+	}
+	.navbar-right > li > a {
+		padding-top: 9px;
+		padding-bottom: 9px;
+		line-height: 27px;
+	}
+	.navbar-right .dropdown-menu li{
+		margin-left: 45px;
+		margin-bottom: 15px
+	}
+	.dropdown-menu > li > a {
+		font-size: 18px;
+		line-height: 30px;
+
+	}
+	.navbar-nav > li > .dropdown-menu{
+		margin-top: 2px;
+	}
+
+	.dropdown-toggle .caret{
+		display: block;
+		float: right;
+    	margin-top: 14px;
+	}
+
+
+
+}

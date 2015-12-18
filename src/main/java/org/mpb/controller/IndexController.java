@@ -18,11 +18,11 @@ public class IndexController {
 	@RequestMapping(value = {"/index", "/"})
 	public String index(Model model) {
         int pageNo = 1;
-        int size = 10;
+        int size = 6;
         Page blogPage =  postService.getPosts(pageNo-1, size);
         int current = blogPage.getNumber() + 1;
-        int begin = Math.max(1, current - 5);
-        int end = Math.min(begin + 10, blogPage.getTotalPages());
+        int begin = Math.max(1, current - 3);
+        int end = Math.min(begin + 6, blogPage.getTotalPages());
 
         model.addAttribute("beginIndex", begin);
         model.addAttribute("endIndex", end);
@@ -33,11 +33,11 @@ public class IndexController {
 
 	@RequestMapping(value = {"/index/{pageNo}"})
 	public String paginatedPost(Model model, @PathVariable int pageNo) {
-        int size = 10;
+        int size = 6;
         Page blogPage =  postService.getPosts(pageNo-1, size);
         int current = blogPage.getNumber() + 1;
-        int begin = Math.max(1, current - 5);
-        int end = Math.min(begin + 10, blogPage.getTotalPages());
+        int begin = Math.max(1, current - 3);
+        int end = Math.min(begin + 6, blogPage.getTotalPages());
 
         model.addAttribute("beginIndex", begin);
         model.addAttribute("endIndex", end);

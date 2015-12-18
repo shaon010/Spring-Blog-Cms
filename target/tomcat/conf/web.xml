@@ -3412,7 +3412,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>str</extension>
-        <mime-type>application/vnd.pg.format</mime-type>
+        <mime-type>application/vnd.pg.description</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>stw</extension>
