@@ -1,7 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 
-<script type="text/javascript" src="//cdn.jsdelivr.net/ckeditor/4.0.1/ckeditor.js"></script>
 <%@ include file="../layout/taglib.jsp"%>
 
 <script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
