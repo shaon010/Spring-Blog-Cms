@@ -81,8 +81,8 @@ public class PostService {
 	}
 
 	@Transactional
-	public Post findOneWithComments(String title) {
-		Post post = postRepository.findByTitle(title);
+	public Post findOneWithComments(String title, int postId) {
+		Post post = postRepository.findByTitleAndId(title, postId);
 		List<Comment> comments = commentRepository.findByPost(post, new PageRequest(0, 10, Direction.ASC, "publishedDate"));
 	
 		post.setComment(comments);

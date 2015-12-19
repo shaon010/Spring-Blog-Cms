@@ -17,7 +17,7 @@
                             <div class="single-article">
                                 <div class="art-title">
                                     <img src=<spring:url value="/resources/img/flash-post.png"/> alt="">
-                                    <h3><a href="<spring:url value="/post/${post.title}.html" />">
+                                    <h3><a post-id="${post.id}" class="read-post" href="<spring:url value="/post/${post.title}.html?postId=${post.id}" />">
                                         <c:out value="${post.title}" />
                                     </a></h3>
                                     <span><c:out value="${post.publishedDate}" />,
@@ -28,7 +28,7 @@
                                 </div>
                                 <div class="art-body">
                                     <p><mytags:cropDescription description="${post.description}"/></p>
-                                    <button type="button" class="btn btn-success read-more"><a href="<spring:url value="/post/${post.title}.html" />">Read More</a></button>
+                                    <button type="button" class="btn btn-success read-more"><a class="read-post" post-id="${post.id}" href="<spring:url value="/post/${post.title}.html?postId=${post.id}" />">Read More</a></button>
                                 </div>
                             </div>
                         </div>
@@ -141,5 +141,18 @@
     </div>
 </section>
 <!-- ***************End Content Section*************** -->
+
+<%--
+<script type="text/javascript">
+    $(document).ready(function() {
+        $(".read-post").on("click", function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            var postId = $(this).attr("post-id");
+            var postLink = $(this).attr("href");
+            $.get(postLink, {postId: postId});
+        })
+     });
+</script>--%>
 
 
