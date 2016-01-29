@@ -503,7 +503,6 @@ font-size: 16px;
 }
 
 /*****************************Content Section********************************/
-
 .content-area {
 
     border-top: 1px solid #7b8690;
@@ -523,6 +522,7 @@ font-size: 16px;
     padding: 20px 45px 0px;
     margin-bottom: 40px;
     overflow: hidden;
+    height: 520px;
 }
 
 .art-title {
@@ -598,7 +598,7 @@ font-size: 16px;
 
 /***************************Siderbar Widget Area *************************************/
 .content-area .col-lg-8:before,.post-area .col-lg-8:before{
-  border-left: 1px solid #CED5DB;
+  border-left: 0px solid #CED5DB;
   height: 100%;
   content: "";
   position: absolute;
@@ -616,14 +616,17 @@ font-size: 16px;
     color: #5b6268;
 }
 .single-widget {
-    margin-bottom: 100px;
+   border: 1px solid #BBBBBB;
+margin-bottom: 40px;
+overflow: hidden;
+
 }
 
 .widget-title {
     background-image:linear-gradient(to bottom, #F6F5F5 0%, #EBEAEA 100%);
     background-image: repeat-x;
     border: 1px solid #CED5DB;
-    border-left: none;
+
 }
 
 .widget-title > h3 {

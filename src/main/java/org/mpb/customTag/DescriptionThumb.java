@@ -28,8 +28,8 @@ public class DescriptionThumb extends SimpleTagSupport {
         System.out.println("Format is:" + description);
         try {
             String croppedDescription = description;
-            if (description != null && description.length() > 250)
-                croppedDescription = description.substring(0, 250) + " ...";
+            if (description != null && description.length() > 75)
+                croppedDescription = description.substring(0, 75) + " ...";
             getJspContext().getOut().write(croppedDescription);
         } catch (Exception e) {
             e.printStackTrace();
