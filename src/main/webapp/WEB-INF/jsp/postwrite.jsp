@@ -4,7 +4,14 @@
 <%@ include file="../layout/taglib.jsp"%>
 
 <script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
-<script>tinymce.init({ selector:'textarea' });</script>
+<script>tinymce.init({
+	selector:'textarea',
+	plugins: [
+		'advlist autolink lists link image charmap print preview anchor',
+		'searchreplace visualblocks code fullscreen',
+		'insertdatetime media table contextmenu paste code'
+	]
+});</script>
 
 <form:form commandName="post" cssClass="form-horizontal postform">
 	<div class="form-group">

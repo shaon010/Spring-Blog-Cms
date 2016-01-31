@@ -9,6 +9,8 @@
 	max-width: 330px;
 	padding: 15px;
 	margin: 0 auto;
+	border: #555;
+	border-style: outset;
 }
 
 .form-signin .form-signin-heading,.form-signin .checkbox {
@@ -44,11 +46,14 @@
 	border-top-left-radius: 0;
 	border-top-right-radius: 0;
 }
+.btn-success {
+	background: #428bca;
+}
 </style>
 
 <form class="form-signin" role="form" action="<spring:url value="/login" />" method="POST">
 	<h2 class="form-signin-heading">Please sign in</h2>
 	<input type="text" name="username" id="username" class="form-control" placeholder="Name" required autofocus>
 	<input type="password" name="password"  id="password" class="form-control" placeholder="Password" required>
-	<button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+	<button class="btn btn-lg btn-success" type="submit">Sign in</button>
 </form>
