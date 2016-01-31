@@ -35,11 +35,24 @@
 <form:form commandName="comment" cssClass="form-horizontal comment">
 
 	<div class="form-group">
-		<label for="description" class="col-sm-3 col-lg-3 control-label">Give your comments here</label>
+		<label for="description" class="col-sm-3 col-lg-3 control-label">Give your comments here<span class="mandatory">*</span></label>
 		<div class="col-sm-10 col-lg-5">
 			<form:textarea path="description" class="form-control" rows="5" />
 		</div>
 	</div>
+	<div class="form-group">
+		<label for="email" class="col-sm-3 col-lg-3 control-label">Email:<span class="mandatory">*</span></label>
+		<div class="col-sm-10 col-lg-5">
+			<form:input type="email" path="email" class="form-control" rows="5" />
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="email" class="col-sm-3 col-lg-3 control-label">Email:<span class="mandatory">*</span></label>
+		<div class="col-sm-10 col-lg-5">
+			<form:input type="tex" path="name" class="form-control" rows="5" />
+		</div>
+	</div>
+	<form:input type="hidden" path="post" value="${post.id}" />
 	<div style="text-align: center">
 			<input type="submit" value="Submit Comment" class="btn btn-sm btn-primary" />
 		</div>

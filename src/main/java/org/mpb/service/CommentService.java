@@ -28,14 +28,20 @@ public class CommentService {
 	private CommentRepository commentRepository;
 	
 	@Transactional 
-	public void save(Comment comment, String name, String title) {
+	public void save(Comment comment, String name) {
 		Users user = userRepository.findByName(name);
-		Post post = postRepository.findByTitle(title);
 		comment.setPublishedDate(new Date());
 		comment.setUser(user);
-		comment.setPost(post);
+		comment.setEmail(user.getEmail());
+		comment.setName(user.getName());
 		commentRepository.save(comment);
 		
+	}
+
+	@Transactional
+	public void save(Comment comment) {
+		comment.setPublishedDate(new Date());
+		commentRepository.save(comment);
 	}
 
 }

@@ -1,5 +1,7 @@
 package org.mpb.entity;
 
+import org.hibernate.validator.constraints.NotEmpty;
+
 import java.util.Date;
 
 import javax.persistence.Column;
@@ -20,7 +22,18 @@ public class Comment {
 	@Id
 	@GeneratedValue
 	private Integer id;
-	
+
+	//TODO add custom validation for mail-> http://stackoverflow.com/questions/4459474/hibernate-validator-email-accepts-askstackoverflow-as-valid
+
+	@NotEmpty
+	@Column(length = Integer.MAX_VALUE)
+	private String email;
+
+	@NotEmpty
+	@Column(length = Integer.MAX_VALUE)
+	private String name;
+
+	@NotEmpty
 	@Column(length = Integer.MAX_VALUE)
 	private String description;
 	
@@ -75,5 +88,20 @@ public class Comment {
 	public void setPublishedDate(Date publishedDate) {
 		this.publishedDate = publishedDate;
 	}
-	
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
 }
