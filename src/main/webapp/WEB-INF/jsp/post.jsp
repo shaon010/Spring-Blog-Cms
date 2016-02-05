@@ -2,61 +2,171 @@
     pageEncoding="UTF-8"%>
 
 <%@ include file="../layout/taglib.jsp"%>
+<section class="post-area">
+	<div class="container">
+		<div class="row">
+	<div class="col-lg-8">
+		<div class="post-content">
+			<div class="article">
+				<div class="title">
+					<h1>${post.title}</h1>
+					<div class="image">
+						<img src="img/post.jpg" alt="">
+						<div class="meta clearfix">
+							<div class="author">
+								<i class="fa fa-user"></i>
+								<span class="data">${post.user.name}</span>
+							</div>
+							<div class="date">
+								<i class="fa fa-calendar"></i>
+								<span class="data"><c:out value="${post.publishedDate}"/></span>
+							</div>
+							<div class="comments">
+								<i class="fa fa-comments"></i>
+								<span class="data"><a href="#comments">${post.comment != null? post.comment.size(): 0} Comments</a></span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="body">
+					<p>${post.description}</p>
+				</div><!--   ENd BODy -->
 
-<h1>${post.title}</h1>
+			</div><!--  END article -->
 
-<p>${post.description}</p>
-
-<br/>
-<br/>
-<br/>
-
-<H3>Comments</H3>
-<c:forEach items="${post.comment}" var="comment">
-<tr>
-				<td> 
-					${comment.description}
-					<br />
-					<c:out value="${comment.publishedDate}" />
-				</td>
-				<td> 
-				<a href="<spring:url value="/users/${user.id}.html" />">
-					${comment.user.name}
+			<!--      Social Icon below  -->
+			<div class="col-md-10 tales-superblock">
+				<div class="social-icons clearfix">
+					<a href="#" class="social-icon color-one">
+						<div class="inner-circle" ></div>
+						<i class="fa fa-twitter"></i>
 					</a>
-			</tr>
-			<br/>
 
-</c:forEach>
+					<a href="#" class="social-icon color-two">
+						<div class="inner-circle" ></div>
+						<i class="fa fa-google-plus"></i>
+					</a>
 
-<br/>
-<br/>
-<br/>
+					<a href="#" class="social-icon color-three">
+						<div class="inner-circle" ></div>
+						<i class="fa fa-github-alt"></i>
+					</a>
+				</div>
+				<hr>
+			</div>
+			<!--   ********************   Comment Section ******************** -->
+			<div class="col-lg-12 comment-section-area">
+				<h2><i class="fa fa-comments"></i>${post.comment != null? post.comment.size(): 0} Comments</h2>
+				<c:forEach items="${post.comment}" var="comment">
+					<div class="comment">
+						<div class="cmt-title clearfix">
+							<img src="img/avatar.png" alt="A Smart Guy" class="avatar">
+							<div class="meta">
+								<h3><a href="#">${comment.name}</a></h3>
+                                                    <span class="date">
+                                                       <c:out value="${comment.publishedDate}" />
+                                                    </span>
+                                                    <span class="separator">
+                                                        -
+                                                    </span>
+								<a href="#create-comment" class="reply-link">Reply</a>
+							</div>
+						</div>
+						<div class="cmt-body">${comment.description}</div>
+					</div>
+				</c:forEach>
 
-<form:form commandName="comment" cssClass="form-horizontal comment">
+			</div>
+			<div class="col-lg-12">
+				<div class="create-comment" id="create-comment">
+					<hr>
+					<h2><i class="fa fa-heart"></i> Add Comment</h2>
+					<form:form commandName="comment" accept-charset="utf-8">
+						<div class="row">
+							<div class="col-md-6">
+								<form:input type="text" path="name" id="comment-name" placeholder="Name" class="form-control input-lg"/>
+							</div>
+							<div class="col-md-6">
+								<form:input type="email" path="email" id="comment-email" placeholder="Email" class="form-control input-lg"/>
+							</div>
+						</div>
+						<form:textarea path="description" id="comment-body" placeholder="Your thoughts..." class="form-control input-lg"/>
 
-	<div class="form-group">
-		<label for="description" class="col-sm-3 col-lg-3 control-label">Give your comments here<span class="mandatory">*</span></label>
-		<div class="col-sm-10 col-lg-5">
-			<form:textarea path="description" class="form-control" rows="5" />
+						<div class="buttons clearfix">
+							<button class="btn btn-lg btn-cancel">Cancel</button>
+							<button type="submit" class="btn btn-lg btn-success">Submit</button>
+						</div>
+					</form:form>
+				</div>
+			</div>
+		</div><!--  ENd post-content-->
+	</div><!--  End Col-lg-8 -->
+
+
+			<!--       Sidebar  -->
+			<div class="col-lg-4">
+				<div class="widget-area">
+
+					<!-- begin single widget -->
+					<div class="single-widget">
+						<div class="widget-title">
+							<h3>Read next...</h3>
+						</div>
+						<div class="widget-content">
+							<ul class="tales-list">
+								<li><a href="index.html">Email Encryption Explained</a></li>
+								<li><a href="#">Selling is a Function of Design.</a></li>
+								<li><a href="#">It’s Hard To Come Up With Dummy Titles</a></li>
+								<li><a href="#">Why the Internet is Full of Cats</a></li>
+								<li><a href="#">Last Made-Up Headline, I Swear!</a></li>
+							</ul>
+						</div>
+					</div>
+					<!-- End single widget -->
+
+					<!-- begin single widget -->
+					<div class="single-widget">
+						<div class="widget-title">
+							<h3>Authors Favorites</h3>
+						</div>
+						<div class="widget-content">
+							<ul class="tales-list">
+								<li><a href="index.html">Email Encryption Explained</a></li>
+								<li><a href="#">Selling is a Function of Design.</a></li>
+								<li><a href="#">It’s Hard To Come Up With Dummy Titles</a></li>
+								<li><a href="#">Why the Internet is Full of Cats</a></li>
+								<li><a href="#">Last Made-Up Headline, I Swear!</a></li>
+							</ul>
+						</div>
+					</div>
+					<!-- End single widget -->
+
+					<!-- begin single widget -->
+					<div class="single-widget">
+						<div class="widget-title">
+							<h3>Tags</h3>
+						</div>
+						<div class="widget-content">
+							<ul class="tags">
+								<li><a href="#">OpenPGP</a></li>
+								<li><a href="#">Django</a></li>
+								<li><a href="#">Bitcoin</a></li>
+								<li><a href="#">Security</a></li>
+								<li><a href="#">GNU/Linux</a></li>
+								<li><a href="#">Git</a></li>
+								<li><a href="#">Homebrew</a></li>
+								<li><a href="#">Debian</a></li>
+							</ul>
+						</div>
+					</div>
+					<!-- End single widget -->
+
+				</div><!--  End Widget_area -->
+			</div>
 		</div>
 	</div>
-	<div class="form-group">
-		<label for="email" class="col-sm-3 col-lg-3 control-label">Email:<span class="mandatory">*</span></label>
-		<div class="col-sm-10 col-lg-5">
-			<form:input type="email" path="email" class="form-control" rows="5" />
-		</div>
-	</div>
-	<div class="form-group">
-		<label for="email" class="col-sm-3 col-lg-3 control-label">Email:<span class="mandatory">*</span></label>
-		<div class="col-sm-10 col-lg-5">
-			<form:input type="tex" path="name" class="form-control" rows="5" />
-		</div>
-	</div>
-	<form:input type="hidden" path="post" value="${post.id}" />
-	<div style="text-align: center">
-			<input type="submit" value="Submit Comment" class="btn btn-sm btn-primary" />
-		</div>
-</form:form>
+</section>
+<!-- ***************End Content Section*************** -->
 
 <script type="text/javascript">
 $(document).ready(function() {
