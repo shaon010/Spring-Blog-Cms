@@ -28,6 +28,10 @@ public class Post {
 
 	@Column(length = 1000)
 	private String title;
+
+
+	private String bannerImageName;
+
 	@Lob
 	@Type(type = "org.hibernate.type.StringClobType")
 	@Column(length = Integer.MAX_VALUE)
@@ -112,4 +116,11 @@ public class Post {
 		this.publishedDate = publishedDate;
 	}
 
+	public String getBannerImageName() {
+		return bannerImageName;
+	}
+
+	public void setBannerImageName(String bannerImageName) {
+		this.bannerImageName = bannerImageName;
+	}
 }

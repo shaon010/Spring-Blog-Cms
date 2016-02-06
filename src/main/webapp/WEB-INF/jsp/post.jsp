@@ -11,7 +11,7 @@
 				<div class="title">
 					<h1>${post.title}</h1>
 					<div class="image">
-						<img src="img/post.jpg" alt="">
+						<img src="/resources/img/postImages/${post.bannerImageName}"/>
 						<div class="meta clearfix">
 							<div class="author">
 								<i class="fa fa-user"></i>

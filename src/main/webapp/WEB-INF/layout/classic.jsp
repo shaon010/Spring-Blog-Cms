@@ -55,7 +55,7 @@
                             <!-- logo of header  -->
                             <a class="navbar-brand" href="<spring:url value="/" />">
                                 <img src=<spring:url value="/resources/img/logo/logo.png"/> alt="blog logo">
-                                <span>Made With Java Blog</span>
+                                <span>Made With Java || Blog</span>
                             </a>
                         </div>
 

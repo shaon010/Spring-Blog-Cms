@@ -13,11 +13,17 @@
 	]
 });</script>
 
-<form:form commandName="post" cssClass="form-horizontal postform">
+<form:form commandName="post" cssClass="form-horizontal postform"  enctype="multipart/form-data">
 	<div class="form-group">
 		<label for="title" class="col-sm-2 control-label">Name:</label>
 		<div class="col-sm-10">
 			<form:input path="title" cssClass="form-control" />
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="imageName" class="col-sm-2 control-label">Banner Image:</label>
+		<div class="col-sm-10">
+			<input type="file" id="imageName" name="imageName"/>
 		</div>
 	</div>
 	<div class="form-group">
