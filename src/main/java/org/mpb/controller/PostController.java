@@ -113,14 +113,14 @@ public class PostController {
 
     @RequestMapping(value = "/post/{title}", method = RequestMethod.POST)
     public String doAddComment(Model model, @Valid @ModelAttribute("comment") Comment comment, BindingResult result,
-                               Principal principal, @PathVariable String title) {
+                               Principal principal, @PathVariable String title, @RequestParam int postId) {
 
         if (principal != null) {
             String name = principal.getName();
-            commentService.save(comment, name);
+            commentService.save(comment, name, postId);
         }
         else
-            commentService.save(comment);
+            commentService.save(comment, postId);
         return "redirect:/post/{title}.html?postId=" + comment.getPost().getId().toString();
     }
 

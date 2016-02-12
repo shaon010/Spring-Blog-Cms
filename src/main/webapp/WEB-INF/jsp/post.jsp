@@ -86,6 +86,7 @@
 							<div class="col-md-6">
 								<form:input type="text" path="name" id="comment-name" placeholder="Name" class="form-control input-lg"/>
 							</div>
+							<input type="hidden" name="postId" value="${post.id}"/>
 							<div class="col-md-6">
 								<form:input type="email" path="email" id="comment-email" placeholder="Email" class="form-control input-lg"/>
 							</div>
