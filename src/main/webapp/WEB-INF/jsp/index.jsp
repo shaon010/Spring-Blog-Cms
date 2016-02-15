@@ -8,31 +8,38 @@
 
 <!-- ***************Begin Content Section*************** -->
 <section class="content-area">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-8">
+            <div class="col-lg-9">
                 <div class="article-section">
-                    <c:forEach items="${posts.getContent()}" var="post">
-                        <div class="col-lg-6">
-                            <div class="single-article">
-                                <div class="art-title">
-                                    <img src=<spring:url value="/resources/img/flash-post.png"/> alt="">
-                                    <h3><a post-id="${post.id}" class="read-post" href="<spring:url value="/post/${post.title}.html?postId=${post.id}" />">
-                                        <c:out value="${post.title}" />
-                                    </a></h3>
-                                    <span><c:out value="${post.publishedDate}" />,
+                    <div class="row">
+                        <c:forEach items="${posts.getContent()}" var="post">
+                                <div class="col-lg-4 col-md-4 col-sm-6"> <!-- col change 6 to 4 -->
+                                    <div class="new-article">
+                                        <div class="box-img" style="background-image: url('/resources/img/postImages/${post.bannerImageName == null ? "post.jpg": post.bannerImageName}');">
+
+                                        </div>
+                                        <div class="article-details">
+                                            <h3><a post-id="${post.id}" class="read-post" href="<spring:url value="/post/${post.title}.html?postId=${post.id}" />">
+                                                <c:out value="${post.title}" />
+                                            </a></h3>
+                                            <span><c:out value="${post.publishedDate}" />,
                                         <a href="<spring:url value="/users/${post.user.id}.html" />">
-                                        <c:out value="${post.user.name}" />
-                                    </a></span>
-                                    <hr></hr>
+                                            <c:out value="${post.user.name}" />
+                                        </a></span>
+                                            <hr />
+                                            <div class="short-description">
+                                                <p><mytags:cropDescription description="${post.description}"/></p>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="art-body">
-                                    <p><mytags:cropDescription description="${post.description}"/></p>
-                                    <button type="button" class="btn btn-success read-more"><a class="read-post" post-id="${post.id}" href="<spring:url value="/post/${post.title}.html?postId=${post.id}" />">Read More</a></button>
-                                </div>
-                            </div>
-                        </div>
-                    </c:forEach>
+
+                        </c:forEach>
+                    </div>
+
                 </div>
                 <div class="col-lg-12 ">
                     <div class="pagination-area">
@@ -79,7 +86,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-3">
                 <div class="widget-area">
                     <!-- begin single widget -->
                     <div class="single-widget">
