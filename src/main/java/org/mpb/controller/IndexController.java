@@ -1,5 +1,6 @@
 package org.mpb.controller;
 
+import org.mpb.base.ControllerBase;
 import org.mpb.entity.Category;
 import org.mpb.service.CategoryService;
 import org.mpb.service.PostService;
@@ -17,7 +18,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @Controller
-public class IndexController {
+public class IndexController extends ControllerBase {
 
     @Autowired
     private PostService postService;
@@ -27,6 +28,11 @@ public class IndexController {
 
 	@RequestMapping(value = {"/index", "/"})
 	public String index(Model model) {
+
+        log.debug("debug level log");
+        log.info("info level log");
+        log.error("error level log");
+
         int pageNo = 1;
         int size = 6;
         Page blogPage =  postService.getPosts(pageNo-1, size);

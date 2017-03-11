@@ -1,5 +1,6 @@
 package org.mpb.controller;
 
+import org.mpb.base.ControllerBase;
 import org.mpb.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -9,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 @RequestMapping("/users")
-public class AdminController {
+public class AdminController extends ControllerBase {
 
 	@Autowired
 	private UserService userService;

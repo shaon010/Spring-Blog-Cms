@@ -1,5 +1,6 @@
 package org.mpb.controller;
 
+import org.mpb.base.ControllerBase;
 import org.mpb.entity.Category;
 import org.mpb.entity.Comment;
 import org.mpb.entity.Post;
@@ -27,7 +28,7 @@ import java.util.List;
  * Created by Shaon on 1/31/2016.
  */
 @Controller
-public class PostController {
+public class PostController extends ControllerBase {
 
     @Autowired
     private PostService postService;

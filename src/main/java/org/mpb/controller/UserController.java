@@ -5,6 +5,7 @@ import java.util.List;
 
 import javax.validation.Valid;
 
+import org.mpb.base.ControllerBase;
 import org.mpb.entity.Category;
 import org.mpb.entity.Comment;
 import org.mpb.entity.Post;
@@ -19,7 +20,7 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 
 @Controller
-public class UserController {
+public class UserController extends ControllerBase {
 
 	@Autowired
 	private UserService userService;

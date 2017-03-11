@@ -2,6 +2,7 @@ package org.mpb.controller;
 
 import javax.validation.Valid;
 
+import org.mpb.base.ControllerBase;
 import org.mpb.entity.Users;
 import org.mpb.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,7 +16,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 @RequestMapping("/register")
-public class RegisterController {
+public class RegisterController extends ControllerBase {
 
 	@Autowired
 	private UserService userService;
