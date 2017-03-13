@@ -25,7 +25,6 @@ public class DescriptionThumb extends SimpleTagSupport {
 
     @Override
     public void doTag() throws JspException, IOException {
-        System.out.println("Format is:" + description);
         try {
             String croppedDescription = description;
             if (description != null && description.length() > 50)
