@@ -30,6 +30,7 @@
 <script type="text/javascript"  src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 
 <script type="text/javascript"  src="<spring:url value='/resources/js/modernizr-2.6.2.min.js'/> "></script>
+<script type="text/javascript"  src="<spring:url value='/resources/js/general-actions.js'/> "></script>
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title><tiles:getAsString name="title" /></title>
@@ -75,12 +76,9 @@
                                     <li class="${current == 'postwrite' ? 'active' : ''}"><a href="<spring:url value="/postwrite.html" />">Write new blog post</a></li>
                                     <li><a href="<spring:url value="/logout" />">Logout</a></li>
                                 </security:authorize>
-                                <li class="dropdown active">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Category <span class="caret"></span></a>
+                                <li class="dropdown category-dropdown active ">
+                                    <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Category <span class="caret"></span></a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#">Category 1</a></li>
-                                        <li><a href="#">Lorem Ipsum 2</a></li>
-                                        <li><a href="#">Lorem Ipsum 3</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="about.html" id="about">About</a></li>
