@@ -9,7 +9,10 @@ $(document).ready(function() {
                 url: "/categoryList",
                 dataType: "json",
                 success: function (resp) {
-                    console.log(resp);
+                    $.each(resp, function (key, value) {
+                        categoryDropdown.find("ul").append("<li><a href='/index/1?categoryId=" + value.id + "' >"+ value.name +  "</a></li>")
+                    });
+                    categoryDropdown.find("ul")
                 },
                 error: function(xhr, status, error) {
                     var err = eval("(" + xhr.responseText + ")");

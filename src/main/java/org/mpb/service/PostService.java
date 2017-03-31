@@ -6,9 +6,11 @@ import java.util.List;
 
 import javax.transaction.Transactional;
 
+import org.mpb.entity.Category;
 import org.mpb.entity.Comment;
 import org.mpb.entity.Post;
 import org.mpb.entity.Users;
+import org.mpb.repository.CategoryRepository;
 import org.mpb.repository.CommentRepository;
 import org.mpb.repository.PostRepository;
 import org.mpb.repository.UserRepository;
@@ -25,12 +27,12 @@ public class PostService {
 
 	@Autowired
 	private PostRepository postRepository;
-
 	@Autowired
 	private UserRepository userRepository;
-	
 	@Autowired
 	private CommentRepository commentRepository;
+	@Autowired
+	private CategoryRepository categoryRepository;
 	
 	
 	
@@ -78,6 +80,13 @@ public class PostService {
 		if (pageNo == null)
 			pageNo = 0;
 		return postRepository.findAll(new PageRequest(pageNo, size, Direction.DESC, "publishedDate"));
+	}
+
+	public Page getPosts(Integer pageNo, Integer size, int categoryId) {
+		if (pageNo == null)
+			pageNo = 0;
+		Category category = categoryRepository.findById(categoryId);
+		return postRepository.findAllByCategory(category, new PageRequest(pageNo, size, Direction.DESC, "publishedDate"));
 	}
 
 	@Transactional

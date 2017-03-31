@@ -99,7 +99,7 @@ public class InitDbService {
 					 "for a smaller model.");
 			 post.setPublishedDate(new Date());
 			 post.setUser(userAdmin);
-			 post.setCategory(category4);
+			 post.setCategory(category1);
 			 postRepository.save(post);
 
 			post = new Post();
@@ -107,7 +107,7 @@ public class InitDbService {
 			post.setDescription("It's been a busy old year for Sony Ericsson");
 			post.setPublishedDate(new Date());
 			post.setUser(userAdmin);
-			post.setCategory(category4);
+			post.setCategory(category1);
 			postRepository.save(post);
 
 			post = new Post();
@@ -115,7 +115,7 @@ public class InitDbService {
 			post.setDescription("It's been a busy old year for Sony Ericsson");
 			post.setPublishedDate(new Date());
 			post.setUser(userAdmin);
-			post.setCategory(category4);
+			post.setCategory(category1);
 			postRepository.save(post);
 
 			post = new Post();
@@ -123,7 +123,7 @@ public class InitDbService {
 			post.setDescription("It's been a busy old year for Sony Ericsson");
 			post.setPublishedDate(new Date());
 			post.setUser(userAdmin);
-			post.setCategory(category4);
+			post.setCategory(category2);
 			postRepository.save(post);
 
 			post = new Post();
@@ -131,7 +131,7 @@ public class InitDbService {
 			post.setDescription("It's been a busy old year for Sony Ericsson");
 			post.setPublishedDate(new Date());
 			post.setUser(userAdmin);
-			post.setCategory(category4);
+			post.setCategory(category2);
 			postRepository.save(post);
 
 			post = new Post();
@@ -139,7 +139,7 @@ public class InitDbService {
 			post.setDescription("It's been a busy old year for Sony Ericsson");
 			post.setPublishedDate(new Date());
 			post.setUser(userAdmin);
-			post.setCategory(category4);
+			post.setCategory(category2);
 			postRepository.save(post);
 
 			post = new Post();
@@ -147,7 +147,7 @@ public class InitDbService {
 			post.setDescription("It's been a busy old year for Sony Ericsson");
 			post.setPublishedDate(new Date());
 			post.setUser(userAdmin);
-			post.setCategory(category4);
+			post.setCategory(category3);
 			postRepository.save(post);
 
 			post = new Post();
@@ -155,7 +155,7 @@ public class InitDbService {
 			post.setDescription("It's been a busy old year for Sony Ericsson");
 			post.setPublishedDate(new Date());
 			post.setUser(userAdmin);
-			post.setCategory(category4);
+			post.setCategory(category3);
 			postRepository.save(post);
 
 			post = new Post();
@@ -163,7 +163,7 @@ public class InitDbService {
 			post.setDescription("It's been a busy old year for Sony Ericsson");
 			post.setPublishedDate(new Date());
 			post.setUser(userAdmin);
-			post.setCategory(category4);
+			post.setCategory(category3);
 			postRepository.save(post);
 
 			post = new Post();
@@ -171,7 +171,7 @@ public class InitDbService {
 			post.setDescription("It's been a busy old year for Sony Ericsson");
 			post.setPublishedDate(new Date());
 			post.setUser(userAdmin);
-			post.setCategory(category4);
+			post.setCategory(category3);
 			postRepository.save(post);
 
 			post = new Post();

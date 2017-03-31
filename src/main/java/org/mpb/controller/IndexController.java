@@ -48,17 +48,25 @@ public class IndexController extends ControllerBase {
 	}
 
 	@RequestMapping(value = {"/index/{pageNo}"})
-	public String paginatedPost(Model model, @PathVariable int pageNo) {
+	public String paginatedPost(Model model, @PathVariable int pageNo, @RequestParam(required = false) Integer categoryId) {
         int size = 6;
-        Page blogPage =  postService.getPosts(pageNo-1, size);
+        Page blogPage;
+        if(categoryId != null) {
+            blogPage =  postService.getPosts(pageNo-1, size, categoryId);
+        }
+        else {
+            blogPage =  postService.getPosts(pageNo-1, size);
+        }
         int current = blogPage.getNumber() + 1;
         int begin = Math.max(1, current - 3);
         int end = Math.min(begin + 6, blogPage.getTotalPages());
-
+        String categorySuffix = categoryId != null? ("?categoryId=" + categoryId) : "";
         model.addAttribute("beginIndex", begin);
         model.addAttribute("endIndex", end);
         model.addAttribute("currentIndex", current);
 		model.addAttribute("posts", blogPage);
+		model.addAttribute("categoryId", categoryId);
+		model.addAttribute("categorySuffix", categorySuffix);
 		return "index";
 	}
 

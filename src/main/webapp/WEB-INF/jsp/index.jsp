@@ -43,10 +43,10 @@
                 </div>
                 <div class="col-lg-12 ">
                     <div class="pagination-area">
-                        <c:url var="firstUrl" value="/index/1" />
-                        <c:url var="lastUrl" value="/index/${posts.totalPages}" />
-                        <c:url var="prevUrl" value="/index/${currentIndex - 1}" />
-                        <c:url var="nextUrl" value="/index/${currentIndex + 1}" />
+                        <c:url var="firstUrl" value="/index/1${categorySuffix}" />
+                        <c:url var="lastUrl" value="/index/${posts.totalPages}${categorySuffix}" />
+                        <c:url var="prevUrl" value="/index/${currentIndex - 1}${categorySuffix}" />
+                        <c:url var="nextUrl" value="/index/${currentIndex + 1}${categorySuffix}" />
 
                         <div class="pagination">
                             <ul class="pagination">
@@ -61,7 +61,7 @@
                                     </c:otherwise>
                                 </c:choose>
                                 <c:forEach var="i" begin="${beginIndex}" end="${endIndex}">
-                                    <c:url var="pageUrl" value="/index/${i}" />
+                                    <c:url var="pageUrl" value="/index/${i}${categorySuffix}" />
                                     <c:choose>
                                         <c:when test="${i == currentIndex}">
                                             <li class="active"><a href="${pageUrl}"><c:out value="${i}" /></a></li>
