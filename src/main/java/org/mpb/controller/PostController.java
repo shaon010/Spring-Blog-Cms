@@ -23,6 +23,7 @@ import javax.validation.Valid;
 import java.io.File;
 import java.security.Principal;
 import java.util.List;
+import java.util.UUID;
 
 /**
  * Created by Shaon on 1/31/2016.
@@ -79,11 +80,10 @@ public class PostController extends ControllerBase {
         try {
             if (imageName != null && imageName.length > 0) {
                 for (CommonsMultipartFile aFile : imageName){
-                    System.out.println("Saving file: " + aFile.getOriginalFilename());
-                    String filename = aFile.getOriginalFilename();
+                    String filename = UUID.randomUUID().toString() + aFile.getOriginalFilename();
                     post.setBannerImageName(filename);
                     if (!aFile.getOriginalFilename().equals("")) {
-                        aFile.transferTo(new File(saveDirectory+"/"+aFile.getOriginalFilename()));
+                        aFile.transferTo(new File(saveDirectory+"/" + filename));
                     }
                 }
             }

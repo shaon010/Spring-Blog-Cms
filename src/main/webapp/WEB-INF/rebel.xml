@@ -5,5 +5,10 @@
 		<dir name="G:/IdeaProjects/Spring-Blog-Cms/build/classes/main">
 		</dir>
 	</classpath>
-
+	<web>
+		<link target="/">
+			<dir name="G:/IdeaProjects/Spring-Blog-Cms/src/main/webapp"/>
+		</link>
+	</web>
 </application>
+
