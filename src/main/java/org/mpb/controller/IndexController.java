@@ -44,7 +44,8 @@ public class IndexController extends ControllerBase {
         model.addAttribute("endIndex", end);
         model.addAttribute("currentIndex", current);
 		model.addAttribute("posts", blogPage);
-		return "index";
+        model.addAttribute("categoryList", categoryService.getCategoryListForDropdown());
+        return "index";
 	}
 
 	@RequestMapping(value = {"/index/{pageNo}"})
@@ -67,6 +68,7 @@ public class IndexController extends ControllerBase {
 		model.addAttribute("posts", blogPage);
 		model.addAttribute("categoryId", categoryId);
 		model.addAttribute("categorySuffix", categorySuffix);
+		model.addAttribute("categoryList", categoryService.getCategoryListForDropdown());
 		return "index";
 	}
 
@@ -83,13 +85,7 @@ public class IndexController extends ControllerBase {
         categoryService.findAll().stream().map(Category::getId).collect(Collectors.toList()); // return a list , only of id
 
         */
-       return categoryService.findAll().stream().map(category -> {
-            return new HashMap() {{
-                put("id", category.getId()) ;
-                put("name", category.getTitle()) ;
-            }};
-
-        }).collect(Collectors.toList());
+       return categoryService.getCategoryListForDropdown();
        //return categoryService.findAll();
     }
 }

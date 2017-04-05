@@ -9,7 +9,7 @@ $(document).ready(function() {
                 url: "/categoryList",
                 dataType: "json",
                 success: function (resp) {
-                    $.each(resp, function (key, value) {
+                    $.each(resp, function (index, value) {
                         categoryDropdown.find("ul").append("<li><a href='/index/1?categoryId=" + value.id + "' >"+ value.name +  "</a></li>")
                     });
                     categoryDropdown.find("ul")

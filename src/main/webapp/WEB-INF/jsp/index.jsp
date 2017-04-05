@@ -91,15 +91,13 @@
                     <!-- begin single widget -->
                     <div class="single-widget">
                         <div class="widget-title">
-                            <h3>Authors Favorites</h3>
+                            <h3>Category</h3>
                         </div>
                         <div class="widget-content">
                             <ul class="tales-list">
-                                <li><a href="index.html">Email Encryption Explained</a></li>
-                                <li><a href="#">Selling is a Function of Design.</a></li>
-                                <li><a href="#">It’s Hard To Come Up With Dummy Titles</a></li>
-                                <li><a href="#">Why the Internet is Full of Cats</a></li>
-                                <li><a href="#">Last Made-Up Headline, I Swear!</a></li>
+                                <c:forEach items="${categoryList}" var="category">
+                                    <li><a href="<c:url value="/index/1/categoryId=${category.id}" />"><c:out value="${category.name}" /></a></li>
+                                </c:forEach>
                             </ul>
                         </div>
                     </div>
