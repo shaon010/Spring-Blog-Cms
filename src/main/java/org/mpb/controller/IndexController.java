@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.util.HashMap;
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 @Controller
@@ -26,30 +27,13 @@ public class IndexController extends ControllerBase {
     @Autowired
     private CategoryService categoryService;
 
-	@RequestMapping(value = {"/index", "/"})
-	public String index(Model model) {
-
-        log.debug("debug level log");
-        log.info("info level log");
-        log.error("error level log");
-
-        int pageNo = 1;
-        int size = 6;
-        Page blogPage =  postService.getPosts(pageNo-1, size);
-        int current = blogPage.getNumber() + 1;
-        int begin = Math.max(1, current - 3);
-        int end = Math.min(begin + 6, blogPage.getTotalPages());
-
-        model.addAttribute("beginIndex", begin);
-        model.addAttribute("endIndex", end);
-        model.addAttribute("currentIndex", current);
-		model.addAttribute("posts", blogPage);
-        model.addAttribute("categoryList", categoryService.getCategoryListForDropdown());
-        return "index";
-	}
-
-	@RequestMapping(value = {"/index/{pageNo}"})
-	public String paginatedPost(Model model, @PathVariable int pageNo, @RequestParam(required = false) Integer categoryId) {
+	@RequestMapping(value = {"/index", "/", "/index/{pageNo}"})
+	public String paginatedPost(Model model, @PathVariable Optional<Integer> optionalPageNo, @RequestParam(required = false) Integer categoryId) {
+	    // @PathVariable Map<String, String> pathVariables is supported
+	    int pageNo = 1;
+	    if(optionalPageNo.isPresent()) {
+	        pageNo = optionalPageNo.get();
+        }
         int size = 6;
         Page blogPage;
         if(categoryId != null) {
