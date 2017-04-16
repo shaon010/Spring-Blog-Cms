@@ -36,11 +36,14 @@ public class IndexController extends ControllerBase {
         }
         int size = 6;
         Page blogPage;
+        Page readNext;
         if(categoryId != null) {
             blogPage =  postService.getPosts(pageNo-1, size, categoryId);
+            readNext =  postService.getPosts(pageNo, size, categoryId);
         }
         else {
             blogPage =  postService.getPosts(pageNo-1, size);
+            readNext =  postService.getPosts(pageNo, size);
         }
         int current = blogPage.getNumber() + 1;
         int begin = Math.max(1, current - 3);
@@ -50,6 +53,7 @@ public class IndexController extends ControllerBase {
         model.addAttribute("endIndex", end);
         model.addAttribute("currentIndex", current);
 		model.addAttribute("posts", blogPage);
+		model.addAttribute("readNext", readNext);
 		model.addAttribute("categoryId", categoryId);
 		model.addAttribute("categorySuffix", categorySuffix);
 		model.addAttribute("categoryList", categoryService.getCategoryListForDropdown());

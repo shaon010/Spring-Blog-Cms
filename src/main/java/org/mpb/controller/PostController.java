@@ -99,7 +99,10 @@ public class PostController extends ControllerBase {
 
     @RequestMapping(value = "post/{title}", method = RequestMethod.GET)
     public String detail(Model model, @PathVariable String title, @RequestParam Integer postId) {
-        model.addAttribute("post", postService.findOneWithComments(title, postId));
+        Post post = postService.findOneWithComments(title, postId);
+        model.addAttribute("post", post);
+        model.addAttribute("categoryList", categoryService.getCategoryListForDropdown());
+        model.addAttribute("readNext", postService.getPosts(0, 6, post.getCategory().getId()));
         return "post";
     }
 

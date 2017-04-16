@@ -110,18 +110,18 @@
                         </div>
                         <div class="widget-content">
                             <ul class="tales-list">
-                                <li><a href="index.html">Email Encryption Explained</a></li>
-                                <li><a href="#">Selling is a Function of Design.</a></li>
-                                <li><a href="#">It’s Hard To Come Up With Dummy Titles</a></li>
-                                <li><a href="#">Why the Internet is Full of Cats</a></li>
-                                <li><a href="#">Last Made-Up Headline, I Swear!</a></li>
+                                <c:forEach items="${readNext.getContent()}" var="nextPost">
+                                    <li><a post-id="${nextPost.id}" class="read-post" href="<spring:url value="/post/${nextPost.title}.html?postId=${nextPost.id}" />">
+                                        <c:out value="${nextPost.title}" />
+                                    </a></li>
+                                </c:forEach>
                             </ul>
                         </div>
                     </div>
                     <!-- End single widget -->
 
                     <!-- begin single widget -->
-                    <div class="single-widget">
+                    <%--<div class="single-widget">
                         <div class="widget-title">
                             <h3>Tags</h3>
                         </div>
@@ -137,7 +137,7 @@
                                 <li><a href="#">Debian</a></li>
                             </ul>
                         </div>
-                    </div>
+                    </div>--%>
                     <!-- End single widget -->
 
                 </div><!--  End Widget_area -->
