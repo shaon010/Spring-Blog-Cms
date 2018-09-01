@@ -51,7 +51,7 @@
                         <p>I'm happy to hear from my readers. Thoughts,
                             feedback, critique - all welcome! Drop me a line:</p>
                                     <span class="email">
-                                        <a href="#">shaon010@gmail.com</a>, PGP key 0x5AK0BEA1
+                                        <a href="#">shaon010@gmail.com</a>
                                     </span>
                     </div>
                 </div>

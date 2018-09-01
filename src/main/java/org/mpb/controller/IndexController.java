@@ -27,9 +27,10 @@ public class IndexController extends ControllerBase {
     @Autowired
     private CategoryService categoryService;
 
-	@RequestMapping(value = {"/index", "/", "/index/{pageNo}"})
+	@RequestMapping(value = {"/index", "/", "/index/{optionalPageNo}"})
 	public String paginatedPost(Model model, @PathVariable Optional<Integer> optionalPageNo, @RequestParam(required = false) Integer categoryId) {
 	    // @PathVariable Map<String, String> pathVariables is supported
+        // if @PathVariable name is not same as the name in declaration, you can use @PathVariable("nameInController")
 	    int pageNo = 1;
 	    if(optionalPageNo.isPresent()) {
 	        pageNo = optionalPageNo.get();

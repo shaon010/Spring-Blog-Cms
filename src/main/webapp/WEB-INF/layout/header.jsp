@@ -63,7 +63,6 @@
                         <!-- Collect the nav links, forms, and other content for toggling -->
                         <div class="collapse navbar-collapse" id="navbar-collapse">
                             <ul class="nav navbar-nav navbar-right">
-                                <li class="${current == 'index' ? 'active' : ''}"><a href='<spring:url value="/" />'>Home</a></li>
                                 <security:authorize access="hasRole('ROLE_ADMIN')">
                                     <li class="${current == 'users' ? 'active' : ''}"><a href="<spring:url value="/users.html" />">Users</a></li>
                                 </security:authorize>
@@ -81,8 +80,8 @@
                                     <ul class="dropdown-menu">
                                     </ul>
                                 </li>
-                                <li><a href="about.html" id="about">About</a></li>
-                                <li><a href="credit.html" id="credit">Credit</a></li>
+                                <%--<li><a href="about.html" id="about">About</a></li>
+                                <li><a href="credit.html" id="credit">Credit</a></li>--%>
                             </ul>
                         </div><!-- /.navbar-collapse -->
                     </nav><!--   End Nav -->
